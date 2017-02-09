@@ -64,11 +64,11 @@ A theme file is a simple Sass file that defines your palettes and passes them to
 
 ```css
 @import '~@angular/material/core/theming/all-theme';
-@import '~@covalent/core/theming/all-theme';
+@import '~@covalent/core/styles/theming/all-theme';
 
 // (optional) Additional themes
 @import '~@covalent/markdown/markdown-theme';
-@import '~@covalent/highlight/highlight-theme';\
+@import '~@covalent/highlight/highlight-theme';
 
 @include md-core();
 
@@ -132,7 +132,7 @@ or
 **angular-cli.json**
 ```json
 "styles": [
-  "../node_modules/@covalent/core/common/platform.scss"
+  "../node_modules/@covalent/core/styles/platform.scss"
 ],
 ```
 
